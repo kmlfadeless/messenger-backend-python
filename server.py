@@ -3,7 +3,7 @@ import tornado.web
 import tornado.autoreload
 import tornado.websocket
 import os
-from v1.handlers.AuthHandler import *
+from v1.handler.AuthHandler import *
 
 
 class MainHandler(tornado.web.RequestHandler):
